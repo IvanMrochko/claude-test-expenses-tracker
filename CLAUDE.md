@@ -16,6 +16,7 @@ npm run preview   # Preview production build
 React app with no routing, no state management library, and no backend. State is in-memory only — resets on page refresh.
 
 **Component structure:**
+
 - `App.jsx` — holds the `transactions` array in state, passes it down to children
 - `Summary.jsx` — receives `transactions`, computes `totalIncome`, `totalExpenses`, and `balance` internally
 - `TransactionForm.jsx` — owns its own form state, calls `onAdd(transaction)` prop on submit
